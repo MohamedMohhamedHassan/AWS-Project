@@ -5,6 +5,12 @@
 **Prepared by:** [Student Name]  
 **Status:** Reference architecture and implementation plan. Deployment evidence and measured test results must be added after implementation.
 
+## Submission Files
+
+- [Detailed project report](docs/project-report.md)
+- [Architecture diagram (SVG)](architecture/architecture-diagram.svg)
+- [Acceptance test plan and evidence checklist](tests/test-plan.md)
+
 ## 1. Project Overview
 
 This project designs a serverless, event-driven image-processing pipeline. Users upload image files and choose an output size, frame, or watermark. The system validates the upload, asynchronously processes the image, stores generated variants, records metadata and job status, and serves the finished images globally.
